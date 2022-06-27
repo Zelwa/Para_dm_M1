@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11  -rdynamic CMakeFiles/suiteserie.dir/src/testsuiteserie.cpp.o  -o bin/suiteserie 

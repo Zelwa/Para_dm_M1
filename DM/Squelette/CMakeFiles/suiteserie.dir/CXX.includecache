@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/debian/Documents/Parralellisme/Para_dm/DM/Squelette/src/testsuiteserie.cpp
+Suite.hpp
+/home/debian/Documents/Parralellisme/Para_dm/DM/Squelette/src/Suite.hpp
+Serie.hpp
+/home/debian/Documents/Parralellisme/Para_dm/DM/Squelette/src/Serie.hpp
+cmath
+-
+iostream
+-
+cstdlib
+-
+
+src/include/Serie.hpp
+Suite.hpp
+src/include/Suite.hpp
+
+src/include/Suite.hpp
+

@@ -1,0 +1,19 @@
+#ifndef VECTEURS_HPP
+#define VECTEURS_HPP
+
+#include <emmintrin.h>
+#include <cstdlib>
+
+namespace vecteurs {
+
+
+void rotate(double a[],
+              const size_t& n);
+
+void rotateSSE2(double a[],
+            const size_t& n);
+
+
+}
+
+#endif

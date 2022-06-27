@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/debian/Documents/Parralellisme/Para_dm/DM/Squelette/src/testvectors.cpp
+vectors.hpp
+/home/debian/Documents/Parralellisme/Para_dm/DM/Squelette/src/vectors.hpp
+iostream
+-
+stdlib.h
+-
+cstdlib
+-
+
+/home/debian/Documents/Parralellisme/Para_dm/DM/Squelette/src/vectors.cpp
+vectors.hpp
+/home/debian/Documents/Parralellisme/Para_dm/DM/Squelette/src/vectors.hpp
+
+src/include/vectors.hpp
+emmintrin.h
+-
+cstdlib
+-
+

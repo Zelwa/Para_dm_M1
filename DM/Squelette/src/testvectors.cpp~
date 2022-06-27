@@ -1,0 +1,43 @@
+#include "vecteur.hpp"
+#include <iostream>
+#include <stdlib.h>
+#include <cstdlib>
+#include <time.h>
+
+
+
+// Abolition du préfixage explicite pour notre librairie.
+using namespace vecteurs;
+
+int
+main(int argc, char* argv[]) {
+
+  // Longueur paire du tableau manipulé.
+  const size_t n = 10;
+  srand(time(NULL));
+  double iSecret;
+  double a[n];
+  int i;
+  for ( i= 0; i < n; i++) {
+    iSecret = rand() % 10 + 1;
+    a[i]= iSecret;
+  }
+
+  for ( i= 0; i < n; i++) {
+    std::cout << "a["<<i<<"] : "<< a[i] << "\t" << std::endl;
+  }
+
+  rotateSSE2(a,n);
+  std::cout << "\n";
+  for ( i= 0; i < n; i++) {
+    std::cout << "a["<<i<<"] : "<< a[i] << "\t" << std::endl;
+    }
+
+
+
+
+
+  // C'est terminé.
+  return EXIT_SUCCESS;
+
+}
